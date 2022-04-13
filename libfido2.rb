@@ -4,6 +4,7 @@ class Libfido2 < Formula
   url "https://github.com/Yubico/libfido2/archive/05cf927b11eeb5795f46219ff59219b3c9e5bc9b.tar.gz"
   sha256 "7b3b953089a044a06bd0f638509eb7f7ab2258609af21b57469cf4eebbae79da"
   license "BSD-2-Clause"
+  version "1.10.0-main"
 
   #bottle do
   #  sha256 cellar: :any,                 arm64_monterey: "e78d1d760c1c61c74ea753e38f1803aafdc516b83f446dddb43edc5245475ed3"
