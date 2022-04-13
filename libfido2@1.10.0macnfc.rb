@@ -1,10 +1,10 @@
-class Libfido2AT110-macnfc < Formula
+class Libfido2AT110macnfc < Formula
   desc "Provides library functionality for FIDO U2F & FIDO 2.0, including USB and macOS NFC"
   homepage "https://developers.yubico.com/libfido2/"
   url "https://github.com/Yubico/libfido2/archive/05cf927b11eeb5795f46219ff59219b3c9e5bc9b.tar.gz"
   sha256 "7b3b953089a044a06bd0f638509eb7f7ab2258609af21b57469cf4eebbae79da"
   license "BSD-2-Clause"
-  version "1.10.0-macnfc"
+  version "1.10.0macnfc"
 
   depends_on "cmake" => :build
   depends_on "mandoc" => :build
