@@ -1,19 +1,10 @@
-class Libfido2 < Formula
+class Libfido2AT110-macnfc < Formula
   desc "Provides library functionality for FIDO U2F & FIDO 2.0, including USB and macOS NFC"
   homepage "https://developers.yubico.com/libfido2/"
   url "https://github.com/Yubico/libfido2/archive/05cf927b11eeb5795f46219ff59219b3c9e5bc9b.tar.gz"
   sha256 "7b3b953089a044a06bd0f638509eb7f7ab2258609af21b57469cf4eebbae79da"
   license "BSD-2-Clause"
-  version "1.10.0-main"
-
-  #bottle do
-  #  sha256 cellar: :any,                 arm64_monterey: "e78d1d760c1c61c74ea753e38f1803aafdc516b83f446dddb43edc5245475ed3"
-  #  sha256 cellar: :any,                 arm64_big_sur:  "fae3b6cb7a4b24319560f28fb5610fb4fb6d2ae8e46cd346c0416ecdd16eb9bd"
-  #  sha256 cellar: :any,                 monterey:       "61720be49bd0fdb87b7900122e22511514f87e0d5c73eb186664bfeee274f451"
-  #  sha256 cellar: :any,                 big_sur:        "be93faeb2280ef841a93421db701352db1e6793840d80de120dbf9483b121325"
-  #  sha256 cellar: :any,                 catalina:       "d01757fc3134f2dc4ba3e0c2ea8356915a2301eaab361bc3ed6d5f4d2977cd18"
-  #  sha256 cellar: :any_skip_relocation, x86_64_linux:   "bfc8bb06403f1c6d9402bb9f939e567da061e0e1fe351677a79624800a91ae6f"
-  #end
+  version "1.10.0-macnfc"
 
   depends_on "cmake" => :build
   depends_on "mandoc" => :build
